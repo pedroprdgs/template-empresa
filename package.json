@@ -1,0 +1,25 @@
+{
+  "name": "template-empresa",
+  "version": "1.0.0",
+  "description": "Módulo template para atividades RI da matéria de TP na FATEC",
+  "homepage": "https://github.com/pedroprdgs/template-empresa#readme",
+  "bugs": {
+    "url": "https://github.com/pedroprdgs/template-empresa/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroprdgs/template-empresa.git"
+  },
+  "author": "Pedro P. Rodrigues",
+  "license":"MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  }
+}
