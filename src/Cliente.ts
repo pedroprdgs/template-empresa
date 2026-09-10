@@ -1,5 +1,5 @@
-import Endereco from "./Endereco";
-import Telefone from "./Telefone";
+import Endereco from "./Endereco.js";
+import Telefone from "./Telefone.js";
 
 export default class Cliente{
     public nome: string;

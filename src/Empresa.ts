@@ -1,6 +1,6 @@
-import Endereco from "./Endereco";
-import Cliente from "./Cliente";
-import Telefone from "./Telefone";
+import Endereco from "./Endereco.js";
+import Cliente from "./Cliente.js";
+import Telefone from "./Telefone.js";
 
 export default class Empresa{
     public endereco: Endereco;
